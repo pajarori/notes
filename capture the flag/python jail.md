@@ -1,8 +1,8 @@
 ---
-title: python jail payloads
+title: python jail bypass payload
 ---
 
 general
-```python
+```python showLineNumbers
 command = lambda x: "cat *.txt"
 ```
