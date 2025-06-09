@@ -1,1 +1,1 @@
-my notes
+https://www.praditya.dev/notes
