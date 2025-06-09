@@ -1,7 +1,7 @@
 ---
-title: pyjail
+title: python jail bypass
 ---
-
+# pyjail
 ## builtins
 ```python showLineNumbers
 # obtain builtins from a globally defined built-in functions
