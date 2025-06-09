@@ -1,1 +1,1 @@
-https://www.praditya.dev/notes
+https://praditya.dev/notes
